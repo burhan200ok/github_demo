@@ -1,0 +1,17 @@
+.list__container {
+  min-height: 93vh;
+}
+
+.list__containerInner {
+  margin-top: -50px;
+}
+
+.list__spinner {
+  margin-top: 30vh;
+  margin-left: 50%;
+}
+
+.listItem__avatar {
+  height: 50px;
+  width: 50px;
+}
