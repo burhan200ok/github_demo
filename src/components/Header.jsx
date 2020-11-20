@@ -1,6 +1,7 @@
 import React from "react";
 import { Button, Navbar } from "react-bootstrap";
 
+// This is Header Section and it has Title of the project and Refresh Button
 function Header({ getCommits }) {
   return (
     <Navbar bg="primary" className="sticky-top">

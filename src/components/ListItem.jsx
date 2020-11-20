@@ -6,6 +6,7 @@ function ListItem({ commit, author }) {
   return (
     <ListGroup.Item className="mt-1 mb-1 rounded shadow-sm">
       <div className="d-flex flex-row align-items-center">
+        {/* Avatar of the User. and if there's no avatar for the User then it'll show the default avatar */}
         <Image
           className="listItem__avatar"
           src={
@@ -15,10 +16,16 @@ function ListItem({ commit, author }) {
           }
           roundedCircle
         />
+        {/* Description of the Commit */}
         <div className="d-flex flex-column ml-3 w-100">
           <span className="font-weight-bold">{commit?.message}</span>
           <div className="d-flex flex-row align-items-center justify-content-between">
-            <span className="flex-1">{commit?.committer?.name}</span>
+            <span className="flex-1">
+              {" "}
+              <strong className="h6">{`Committed By: `}</strong>
+              {commit?.committer?.name}
+            </span>
+
             <small>{moment(commit?.committer?.date).format("lll")}</small>
           </div>
         </div>
