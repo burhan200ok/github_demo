@@ -30,7 +30,7 @@ function List() {
     <div>
       <Header getCommits={getCommits} />
       <div className="jumbotron bg-light m-0 list__container">
-        <div className="container list__containerInner">
+        <div className="container">
           <h4 className="m-1">List of Commits</h4>
           {/* This block of code loops over the commits and Sends Passes the Data to ListItem Element to display */}
           <ListGroup>

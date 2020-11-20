@@ -6,7 +6,7 @@ function Header({ getCommits }) {
   return (
     <Navbar bg="primary" className="sticky-top">
       <Navbar.Brand>
-        <span className="text-light font-weight-bold"> Github Demo | </span>
+        <span className="text-light font-weight-bold"> GitHub Demo | </span>
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse className="justify-content-auto">

@@ -2,10 +2,6 @@
   min-height: 93vh;
 }
 
-.list__containerInner {
-  margin-top: -50px;
-}
-
 .list__spinner {
   margin-top: 30vh;
   margin-left: 50%;
